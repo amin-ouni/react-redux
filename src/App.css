@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  padding-bottom: 685px;
+  background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cfc6c7, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #c2b6b8, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
 }
 
 .App-logo {
@@ -21,7 +27,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
 }
 
 .App-link {
@@ -35,4 +41,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.but{
+  
+  font-family: serif;
+  
+  
+  
+}
+.add{
+  font-family: serif;
+
 }
